@@ -1,0 +1,16 @@
+.input-search {
+    input[type='search']::-webkit-search-cancel-button {
+        -webkit-appearance: none; /* Elimina el estilo por defecto */
+        appearance: none;
+        height: 16px;
+        width: 16px;
+        background: url('https://cdn-icons-png.flaticon.com/512/1828/1828778.png') no-repeat center center / contain;
+        cursor: pointer;
+        opacity: 0.4;
+        -webkit-transition: opacity 0.2s ease-in-out;
+        transition: opacity 0.2s ease-in-out;
+    }
+    input[type='search']:hover::-webkit-search-cancel-button {
+        opacity: 1; /* Cambia la opacidad al pasar el mouse */
+    }
+}
