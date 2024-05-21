@@ -1,4 +1,3 @@
-import React from 'react';
 import Item from './item';
 import { PokemonApiService } from './service';
 import { IProps } from './interfaces';

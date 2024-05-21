@@ -1,4 +1,3 @@
-import React from 'react'
 import { typeTextStyles } from '../types-styles';
 import { IMoves, MoveDetail, MoveType } from '../interfaces';
 
